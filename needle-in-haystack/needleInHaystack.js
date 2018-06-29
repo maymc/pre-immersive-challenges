@@ -1,3 +1,10 @@
 module.exports = function needleInHaystack(haystack) {
-  // write code in here
+
+  var haystackFlag = haystack.includes("needle");
+  if(haystackFlag === true){
+    return haystack.indexOf("needle");
+  }
+  else{
+    return haystackFlag;
+  }
 }
